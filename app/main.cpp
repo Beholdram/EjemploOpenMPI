@@ -1,7 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> /*para concatenar hostname y fecha con hora*/
+#include <string.h>
 #include <unistd.h>
+#include <time.h>
+/**
+Matías Camus R
+Desarrollo control 2
+Captura del nombre de la máquina, con fecha y hora, desde una branch develop con pull a la master de la repo
+*/
 
 /* cabecera de las llamadas a MPI */
 #include <mpi.h> 
